@@ -6,53 +6,327 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Make More Trip</title>
     <!-- custom css -->
-    <link rel="stylesheet" href="./style/style.css">
-    <!-- font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- fontaesome -->
+    <script src="https://kit.fontawesome.com/fa07095628.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- header start -->
+    <!-- header -->
     <header>
+        <!-- navbar start -->
         <nav>
-            <ul class="nav-bar">
-                <li class="logo">
-                    <a href="#"><img src="./Images/Group 40071 (2).png" alt="">
-                        <h3>Make <span>More </span>Trip</h3>
-                    </a>
-                </li>
-                <input type="checkbox" id="check">
-                <span class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Testimonial</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
-                    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
-                </span>
-
-            </ul>
-
-
+            <div class="logo-title">
+                <img src="./Images/Group 40071 (2).png" alt="">
+                <h3>Make <span>More</span> Trip</h3>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="hide-small"><a class="home" href="#">Home</a></li>
+                    <li class="hide-small"><a href="#">Packages</a></li>
+                    <li class="hide-small"><a href="#">Testimonial</a></li>
+                    <li class="hide-small"><a href="#">Blog</a></li>
+                    <li class="hide-small"><a href="#">Contact</a></li>
+                    <li class="hide-big"><a href=""><i class="fa-solid fa-bars" style="font-size: 30px;"></i></a></li>
+                </ul>
+            </div>
         </nav>
+        <!-- banner start -->
+        <section class="banner-section">
+            <h2 class="banner-section-heading">Explore Your Trip</h2>
+            <p class="banner-section-des">Traveling has been a wonderful opportunity to explore new places, try new
+                foods and meet new people. I have had the chance
+                to learn about different cultures and ways of life, which has helped me to understand. </p>
+            <form action="" class="banner-section-form">
+                <input type="text" placeholder="Where Go">
+                <select>
+                    <option value="When" selected>When</option>
+                </select>
+                <select>
+                    <option value="When" selected>Select type</option>
+                </select>
+                <button><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+            </form>
+        </section>
     </header>
-    <!-- header end -->
-
-    <!-- main start -->
     <main>
+        <!-- extra section -->
+        <!-- Our stay services -->
+    <section>
+            <h2 class="similar-main">Book Your Hotel</h2>
+        
+            <div class="card-similar-properties">
+                <!--  -->
+                <div>
+                    <img src="./images/img.jpg" alt="">
+                    <h5>Country Inn and Suites by Radisson, Sahibabad</h5>
+
+                    <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                            class="fa-solid fa-star"></i>
+                    </span>
+                    <h4>$ 70.00</h4>
+                    <span class="per-night">Per Night</span>
+                    <br>
+                    <button>SELECT STAY</button>
+                    <hr>
+                    <h5 class="rate-review"><span>4.2</span> Very Good</h5>
+                    <!-- <hr>
+                    <p>.</p> -->
+                    <hr>
+                    <p><del>Free Cancellation</del></p>
+                    <hr>
+                    <p class="free-brkfast">Free Breakfast Available at Higher Price</p>
+
+
+                </div>
+
+                <!--  -->
+                <div>
+                    <img style="height: 190px;" src="./images/img02.png" alt="">
+                    <h5>Royal Tulip Cox's Bazar, Bangladesh</h5>
+
+                    <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                            class="fa-solid fa-star"></i>
+                    </span>
+                    <h4>$ 90.00</h4>
+                    <span class="per-night">Per Night</span>
+                    <br>
+                    <button>SELECT STAY</button>
+                    <hr>
+                    <h5 class="rate-review"><span>4.8</span> Very Good</h5>
+                    <!-- <hr>
+                    <p>.</p> -->
+                    <hr>
+                    <p><del>Free Cancellation</del></p>
+                    <hr>
+                    <p class="free-brkfast">Free Breakfast Available at Higher Price</p>
+
+
+                </div>
+                <!--  -->
+                <div>
+                    <img style="height: 190px;" src="./images/img04.jpg" alt="">
+                    <h5>Long Beach Hotel Cox's Bazar, Bangladesh</h5>
+
+                    <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                            class="fa-solid fa-star"></i>
+                    </span>
+                    <h4>$ 80.00</h4>
+                    <span class="per-night">Per Night</span>
+                    <br>
+                    <button>SELECT STAY</button>
+                    <hr>
+                    <h5 class="rate-review"><span>4.7</span> Very Good</h5>
+                    <!-- <hr>
+                    <p>.</p> -->
+                    <hr>
+                    <p><del>Free Cancellation</del></p>
+                    <hr>
+                    <p class="free-brkfast">Free Breakfast Available at Higher Price</p>
+
+
+                </div>
+                <!--  -->
+                <div>
+                    <img style="height: 190px;" src="./images/img03.jpg" alt="">
+                    <h5>Sea Pearl Cox's Bazar, Bangladesh</h5>
+
+                    <span><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                            class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                            class="fa-solid fa-star"></i>
+                    </span>
+                    <h4>$ 90.00</h4>
+                    <span class="per-night">Per Night</span>
+                    <br>
+                    <button>SELECT STAY</button>
+                    <hr>
+                    <h5 class="rate-review"><span>4.8</span> Very Good</h5>
+                    <!-- <hr>
+                    <p>.</p> -->
+                    <hr>
+                    <p><del>Free Cancellation</del></p>
+                    <hr>
+                    <p class="free-brkfast">Free Breakfast Available at Higher Price</p>
+
+
+                </div>
+
+                <!--  -->
+            </div>
+        
+    </section>
+
+        <!-- Our stay services -->
+        <!-- popular tours start -->
+        <section class="popular-tours">
+            <div class="popular-tours-left">
+                <h1>Our Popular Tours</h1>
+                <br>
+                <p>Travel is the movement of people between distant geographical locations. Travel can be done by foot,
+                    bicycle, automobile, train, boat, bus, airplane, ship or other means, with or without luggage, and
+                    can be one way or round trip.Discover Our Tours...
+                    <br>
+                    <br>
+                <ul>
+                    <li><b>Educational Tour:</b> Educational tours help students boost confidence through exposure to
+                        new experiences, challenges, and responsibilities outside their familiar environment. They are a
+                        part of group activities, presentations, and interactions with different people.</li>
+                    <br>
+                    <li><b>Honeymoon Tours:</b> A honeymoon is an important part of being married. It brings you and
+                        your partner closer together and lets you enjoy your honeymoon. Now is the time for you and your
+                        partner to laugh, dance, and sing together.</li>
+                    <br>
+                    <li><b>Historical Heritage Tour:</b> Step back in time and explore the ancient wonders of
+                        civilizations in destinations like Egypt's pyramids, Greece's Acropolis, or Cambodia's Angkor
+                        Wat.
+                    </li>
+                    <br>
+                </ul>
+                Finish your adventure by selecting from our curated list of popular tours, each designed to immerse you
+                in the wonders of the world.
+                </p>
+                <br>
+                <br>
+                <button class="primary-btn">Read More</button>
+            </div>
+            <div class="popular-tours-right">
+                <img src="./Images/Rectangle 4.png" alt="">
+            </div>
+        </section>
+
+
+        <!-- destination start -->
+        <section class="destinaton">
+            <div class="destination-text">
+                <h1>Choose Your Destination</h1>
+                <p>Research the best time to visit your desired destinations to experience seasonal events, weather, and
+                    natural phenomena at their peak</p>
+            </div>
+            <div class="destination-gallery">
+                <div class="destination-gallery-row">
+                    <div class="destination-gallery-row-image">
+                        <img src="./Images/Rectangle 5.png" alt="Image 1">
+                        <div class="text">Maldives</div>
+                    </div>
+                    <div class="destination-gallery-row-image">
+                        <img src="./Images/Rectangle 8.png" alt="Image 2">
+                        <div class="text">Indonesia</div>
+                    </div>
+                </div>
+                <div class="destination-gallery-row">
+                    <div class="destination-gallery-row-image srilanka">
+                        <img src="./Images/Rectangle 6.png" alt="Image 3">
+                        <div class="text">Srilanka</div>
+                    </div>
+                    <div class="destination-gallery-row-image north-america">
+                        <img src="./Images/Rectangle 7.png" alt="Image 4">
+                        <div class="text">North America</div>
+                    </div>
+                    <div class="destination-gallery-row-image kashmir">
+                        <img src="./Images/Rectangle 9.png" alt="Image 5">
+                        <div class="text">Kashmir</div>
+                    </div>
+                </div>
+                <div class="destination-gallery-row">
+                    <div class="destination-gallery-row-image bangladesh">
+                        <img src="./Images/Rectangle 11.png" alt="Image 6">
+                        <div class="text">Bangladesh</div>
+                    </div>
+                    <div class="destination-gallery-row-image bandarban">
+                        <img src="./Images/Rectangle 10.png" alt="Image 7">
+                        <div class="text">Bandarban</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- why choose us start -->
+        <section class="choose">
+            <div class="choose-text">
+                <h1>Why Choose us</h1>
+                <p>We prioritize your satisfaction by offering personalized service every step of the way, from
+                    itinerary planning to on-the-ground support, ensuring a seamless and stress-free travel experience.
+                </p>
+            </div>
+            <div class="choose-boxes">
+                <div class="choose-boxes-row1">
+                    <div class="choose-box" style="background-color: rgba(251, 181, 99, 0.05);;">
+                        <i class="fa-solid fa-hotel"></i>
+                        <h1>HandPicked Hotels</h1>
+                        <p> Our handpicked hotels are chosen for their exceptional quality, ensuring that every aspect
+                            of your stay meets the highest standards of comfort and luxury.Each hotel is selected for
+                            its distinctive charm.</p>
+                    </div>
+                    <div class="choose-box" style="background-color: rgba(41, 206, 246, 0.05);;">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <h1>World Class Service</h1>
+                        <p>Our commitment to world-class service means going above and beyond to ensure every aspect of
+                            your journey is seamless, memorable, and exceeds your expectations.</p>
+                    </div>
+                </div>
+                <div class="choose-boxes-row2">
+                    <div class="choose-box" style="background-color: rgba(233, 68, 68, 0.05);">
+                        <i class=" fa-solid fa-tags "></i>
+                        <h1>Best Price Guarantee</h1>
+                        <p>Our Best Price Guarantee ensures that you'll always receive the best value for your travel
+                            investment, with competitive rates that won't be beaten elsewhere.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- newsletter start -->
+        <section>
+            <div class=" newsletter ">
+                <div class=" newsletter-form ">
+                    <form action=" ">
+                        <label for=" ">Newsletter</label>
+                        <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                        <hr>
+                        <input type=" text " placeholder=" Enter your name ">
+                        <br>
+                        <input type=" email " placeholder=" Enter your email ">
+                        <br>
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+                <div class=" newsletter-image ">
+                    <div>
+                        <img src=" ./Images/Rectangle 8 (1).png " alt=" ">
+                    </div>
+                    <button class=" primary-btn ">
+                        <p>Travel.com</p>
+                        <h3>Save up to 70%</h3>
+                    </button>
+                </div>
+            </div>
+        </section>
+
 
     </main>
-    <!-- main end -->
-
-    <!-- footer start -->
+    <!-- footer -->
     <footer>
-
+        <div class=" footer-section ">
+            <div class=" logo-title " style=" display: flex;justify-content: center; ">
+                <img src=" ./Images/Group 40071 (2).png " alt=" ">
+                <h3 class="footer-title">Make <span style=" color: #FF5400; ">More</span> Trip</h3>
+            </div>
+            <p>Your Gateway to Adventures: Explore, Discover, and Experience the World with Confidence. Book Now!
+                <br>
+                
+            </p>
+            <div>
+                <i class=" fa-brands fa-twitter "></i><i class=" fa-brands fa-facebook-f "></i><i class=" fa-brands
+                        fa-instagram "></i><i class=" fa-brands fa-github "></i>
+            </div>
+            <hr>
+            <p>2024, All Rights Reserved.</p>
+        </div>
     </footer>
-    <!-- footer end -->
-
 </body>
 
 </html>
